@@ -1,0 +1,38 @@
+/* author: Amritha Gopal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+.width {
+    width: 300px;
+    text-align: right;
+}
+.star::after {
+    content: "*";
+    color: #af120c;
+}
+.center {
+    width: 70%;
+    margin: auto;
+}
+body {
+    background-image: url("../images/185289.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+.form {
+    background-color: rgba(173, 216, 230, 0.76);
+}
+.reg-page {
+    width: 50%;
+    background-color: rgba(173, 216, 230, 0.726);
+    margin-left: auto;
+    margin-right: auto;
+}
